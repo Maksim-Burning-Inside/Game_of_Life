@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="textBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Об программе:
+Создана Носаревом Максимом Павловичем. Версия программного продукта 1.0, выпущена 09.05.2021.
+
+Игра «Жизнь» (англ. Conway's Game of Life) — клеточный автомат, придуманный английским математиком Джоном Конвеем в 1970.
+В ней существует несколько правил:
+
+Правило 1. Действие происходит на бесконечной плоскости, разделенной на клетки, которую можно иногда представить как зацикленную конечную.
+Правило 2. Каждая клетка может находиться в двух состояниях: быть живой или быть мёртвой.
+Правило 3. У каждой клетки 8 соседей.
+Правило 4. Если клетка жива и у нее 2−3 живых соседа (правила могут быть и иными), то она остается живой, иначе умирает.
+Правило 5. Если клетка мертва и у нее 3 живых соседа (правила могут быть иными), то она становится живой, иначе остается мертвой.
+Правило 6. Игра прекращается, если на поле не останется ни одной живой клетки.
+Правило 7. Игра прекращается, если при очередном шаге ни одна из клеток не меняет своего состояния.
+Правило 8. Игра прекращается, если конфигурация на очередном шаге в точности повторит себя же на одном из более ранних шагов.
+
+Эти простые правила приводят к огромному разнообразию форм, которые могут возникнуть в игре.
+Игрок не принимает прямого участия в игре, а лишь расставляет или генерирует начальную конфигурацию «живых» клеток, которые затем взаимодействуют согласно правилам уже без его участия (он является наблюдателем).
+
+В компьютерных реализациях игры поле ограничено и (как правило) верхняя граница поля «соединена» с нижней, а левая граница — с правой, что представляет собой эмуляцию поверхности тора, но на экране поле всегда отображается в виде равномерной сетки.
+
+Простейший алгоритм «смены поколения» последовательно просматривает все ячейки решётки и для каждой ячейки подсчитывает соседей, определяя судьбу каждой клетки (не изменится, умрёт, родится). Такой простейший алгоритм использует два двумерных массива — один для текущего поколения, второй — для следующего.
+
+В основном окне пользователь может наблюдать ряд кнопок:
+1) «Start» – запускает процесс симуляции.
+2) «Stop» – останавливает процесс симуляции.
+3) «Options» – выводит окно настроек симуляции (подробнее далее).
+4) «Help» – выводит данное окно со справкой.
+5) «Random» – поле заполняется клетками в случайном порядке.
+6) «Figure» – выводит окно с набором из 6 фигур. При выборе любой, она автоматически создастся на экране. Представленные фигуры имеют «интересный» процесс эволюции для классических правил игры «Жизнь» (подробнее о правилах далее).
+7) «Rules of life»  – выводит окно, на котором можно выбрать одно из восьми правил поведения клеток при смене поколений (подробнее о правилах далее).
+8) «Clean» – останавливает процесс эволюции и очищает поле.
+
+Подробнее о возможных надстройках игры «Жизнь»:
+1) Ползунок, подписанный как «Задержка между поколениями», будет регулировать скорость смены поколений в пределах от 0,1 секунды до 1 секунды. Данные временные рамки выбраны, так как именно эти интервалы комфортны для восприятия. Если поколения буду сменятся быстрее или медленнее, то пользователь начнёт ощущать дискомфорт во время игры.
+2) Можно отметить пункт «Игнорировать задержку». В этом случае поколения будут сменятся сразу же, как ваша вычислительная машина обсчитает смену поколений. Будьте внимательны! На небольших полях смена поколений происходит очень быстро и может тяжело переносится людьми, страдающими от эпилепсии.
+3) Поле в игре жизнь классически квадратное. Поэтому его размер указывается единым числом – количество клеток в ширину и высоту.
+4) Так же на выбор есть 2 режима игры – классический черно-белый и цветной, при выборе которого каждое поколения окрашивается в случайные цвета. Данный режим не рекомендуется людям, страдающим от эпилепсии, так как цвета очень быстро и резко сменяются, вызывая рябь в глазах и головокружение. С данным режимом рекомендуется установить бОльшую задержку между поколениями.
+5) При нажатии кнопки «Принять» настройки сохранятся и применятся, поле обновится, сменится музыкальный трек, при выборе «Отмена» настройки не сохранятся и не применятся, поле не изменится, музыкальный трек не сменится.
+
+О различных правилах смены поколений.
+В общих чертах правило записывается всегда так «B*/S*», где B – «burn», рождение, S – «save», сохранение жизни. Вместо звездочек может идти любой набор цифр, являющийся условием для рождения и сохранения жизни. Так классическим правилом считается «B3/S23» – рождение, если соседей ровно три, сохранение жизни, если таковая имеется, при двух-трёх соседях, иначе смерть.
+Вот какие правила представлены в данной программе:
+1) «B3/S23» – классика, обладает самыми широкими вариациями развития событий, большим количеством увлекательных фигур, которые можно установить сразу через меню «Figure».
+2) «B2345678/S1234» – поставьте небольшой набор клеток в центр пол и наслаждайтесь бесконечно растущей и прекрасной, словно снежинка фигурой. Различные вариации клеток дадут различные «снежинки».
+3) «B2/S1345678» – при небольшом скоплении клеток вы получите бесконечные удивительные космические корабли. При заполнении поля случайно, вы получите на удивление плавное и хаотичное Броуновское движение.
+4) «B1/S2345678» – одно из самых необычных наборов правил. Рекомендуется посмотреть на происходящее в цвете. Одной клетки достаточно, чтобы заполнить поле взрывающимися «салютами». При большем заполнении движение клеток напоминает более хаотичное, но прерывистое, не плавное.
+5) «B1/S012345678» – завораживающее зрелище. Установите фигуру в центр и она, сохраняя форму, фрактально начнёт разрастаться в четыре стороны!
+6) « B1/S345678» – создаёт удивительнейшие лабиринты. Конечный вид этих лабиринтов полностью  зависит от фигуры или фигур и их расположения. Экспериментируйте – получившиеся лабиринты вполне можно использовать для создания реальных.
+7) «B5678/S45678» – как видите, по данным правилам рисунок не будет разрастаться. Но это не значит, что это скучные правила! Наполните поле случайными клетками и наблюдайте за чудесами. Через несколько поколений вы получите красивую, гладкую и устойчивую систему пещер. Отлично годится для случайной генерации подземелий в играх.
+8) «B3/S012345678» – еще одно интересное правило. Примерно так разрастаются коралловые рифы!
+
+Это всё, что вам было необходимо знать о данной игре. Желаю вам удачи, в поисках новых удивительных комбинаций, которые, скорее всего, до сих пор еще не открыты человеком! Хотите верте, хотите нет, но таких очень много!
+</value>
+  </data>
+</root>
